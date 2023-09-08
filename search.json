@@ -2,15 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Saras M. Windecker",
+    "title": "Saras M Windecker",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m a Research Fellow with Nick Golding in the Infectious Disease Ecology and Modelling team at Telethon Kids Institute, Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I came to Melbourne after finishing my Bachelors and Masters at University of Pennsylvania and stayed for a PhD at University of Melbourne.\nI’m working on developing software and new models to map and forecast mosquito-borne diseases in Victoria. Before that, I spent my PhD working on soil carbon storage in freshwater wetlands.\nI enjoy implementing reproducible research practices in my science, particularly in my code, which is reflected in my commitment to reproducible research, which you can check out on my GitHub. I also really enjoy teaching coding and stats, and do so regularly at our lab’s Coding Club, at a range of conferences, workshops, and presentations."
+  },
+  {
+    "objectID": "make-a-quarto-website.html",
+    "href": "make-a-quarto-website.html",
+    "title": "make a quarto website",
+    "section": "",
+    "text": "Let’s set up a website using quarto, published with github pages.\nPreq. Github, git\n\nLog in to GitHub, click new repository. Name the repository yourusername.github.io. Don’t initialise with a readme, license, or .gitignore. Create.\nCopy\nGo to RStudio, file new project, version control, git, paste .git of new repo, choose location to save\nin terminal, type quarto create-project –type website\nadd /_site/ to .gitignore\ncommit all changes\ncreate gh-pages branch\n\n#| eval: false\ngit checkout --orphan gh-pages\ngit reset --hard # make sure you've committed changes before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n\n“Before attempting to publish you should ensure that the Source branch for your repository is gh-pages and that the site directory is set to the repository root (/). You can modify these options in Settings : Pages for your repository.”\nto preview in your viewer pane, click on the gear symbol next to render and switch to “Preview in viewer pane”.\n\nhttps://github.com/schochastics/academicons\nhttps://jpswalsh.github.io/academicons/\nmore about publishing options: https://quarto.org/docs/publishing/github-pages.html\nbasic themes: https://quarto.org/docs/output-formats/html-themes.html\nquarto publish gh-pages"
   }
 ]
