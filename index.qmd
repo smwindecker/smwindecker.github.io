@@ -1,7 +1,20 @@
 ---
-title: "smwindecker.github.io"
+title: "Saras M Windecker"
+image: Windecker.png
+about:
+  template: jolla
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/smwindecker
+    - text: "{{< ai google-scholar >}} Google Scholar" 
+      href: https://scholar.google.com.au/citations?user=h4hPhNgAAAAJ
+    - text: "{{< ai researchgate >}} Research Gate"
+      href: https://www.researchgate.net/profile/Saras-Windecker-3 
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/smwindecker
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a Research Fellow with [Nick Golding](https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/) in the [Infectious Disease Ecology and Modelling team](https://qaeco.com/) at [Telethon Kids Institute](https://www.telethonkids.org.au/), Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R. 

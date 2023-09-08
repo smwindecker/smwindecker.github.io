@@ -1,0 +1,14 @@
+{
+  "hash": "09da0b4608a8dbb972c56e4db0a52bd1",
+  "result": {
+    "markdown": "---\ntitle: \"About\"\n---\n\n\nI came to Melbourne after finishing my Bachelors and Masters at [University of Pennsylvania](https://home.www.upenn.edu/) and stayed for a PhD at [University of Melbourne](https://www.unimelb.edu.au/).\n\nI'm working on developing software and new models to map and forecast mosquito-borne diseases in Victoria. Before that, I spent my PhD working on soil carbon storage in freshwater wetlands. \n\nI enjoy implementing reproducible research practices in my science, particularly in my code, which is reflected in my commitment to reproducible research, which you can check out on my [GitHub](https://github.com/smwindecker). I `code <- seq(3)` also really enjoy teaching coding and stats, and do so regularly at our lab's Coding Club, at a range of conferences, workshops, and presentations. \n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- seq(1:10)\nx\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

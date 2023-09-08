@@ -2,4 +2,9 @@
 title: "About"
 ---
 
-About this site
+I came to Melbourne after finishing my Bachelors and Masters at [University of Pennsylvania](https://home.www.upenn.edu/) and stayed for a PhD at [University of Melbourne](https://www.unimelb.edu.au/).
+
+I'm working on developing software and new models to map and forecast mosquito-borne diseases in Victoria. Before that, I spent my PhD working on soil carbon storage in freshwater wetlands. 
+
+I enjoy implementing reproducible research practices in my science, particularly in my code, which is reflected in my commitment to reproducible research, which you can check out on my [GitHub](https://github.com/smwindecker). I also really enjoy teaching coding and stats, and do so regularly at our lab's Coding Club, at a range of conferences, workshops, and presentations. 
+

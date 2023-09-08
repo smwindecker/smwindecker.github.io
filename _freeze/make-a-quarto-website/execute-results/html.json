@@ -1,0 +1,11 @@
+{
+  "hash": "8c9bae83b0b166758d850b1382b7e66f",
+  "result": {
+    "markdown": "---\ntitle: \"make a quarto website\"\neditor: visual\n---\n\nLet's set up a website using quarto, published with github pages.\n\nPreq. Github, git\n\n1.  Log in to GitHub, click new repository. Name the repository *yourusername.github.io*. Don't initialise with a readme, license, or .gitignore. Create.\n2.  Copy\n3.  Go to RStudio, file new project, version control, git, paste .git of new repo, choose location to save\n4.  in terminal, type quarto create-project --type website\n5.  add /\\_site/ to .gitignore\n6.  commit all changes\n7.  create gh-pages branch\n\n\n```{bash}\n#| eval: false\ngit checkout --orphan gh-pages\ngit reset --hard # make sure you've committed changes before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n```\n\n\n8.  \"Before attempting to publish you should ensure that the **Source** branch for your repository is `gh-pages` and that the site directory is set to the repository root (`/`). You can modify these options in **Settings** : **Pages** for your repository. \"\n9.  to preview in your viewer pane, click on the gear symbol next to render and switch to \"Preview in viewer pane\".\n\nhttps://github.com/schochastics/academicons\n\nhttps://jpswalsh.github.io/academicons/\n\nmore about publishing options: https://quarto.org/docs/publishing/github-pages.html\n\nbasic themes: https://quarto.org/docs/output-formats/html-themes.html\n\n\n```{bash}\nquarto publish gh-pages \n```\n\n",
+    "supporting": [
+      "make-a-quarto-website_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

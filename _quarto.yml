@@ -2,22 +2,27 @@ project:
   type: website
 
 website:
-  title: "smwindecker.github.io"
+  title: "Saras M Windecker"
+  # favicon: 
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    left: 
+      - icon: github
+        href: https://github.com/smwindecker
     right:
       - about.qmd
+      - href: CV/CV-WINDECKER.pdf
+        text: CV
+  page-footer:
+    center: "© Saras M Windecker, 2023"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - lux
+      - styles.scss
+    page-layout: full
     toc: true
     code-link: true
 
 execute:
   freeze: auto
-
-
