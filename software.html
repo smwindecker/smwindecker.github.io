@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Saras M Windecker</title>
+<title>Saras M Windecker - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,16 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,9 +61,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-</head>
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="alternate" type="application/rss+xml" title="Saras M Windecker" href="software.xml"></head>
 
 <body class="nav-fixed">
 
@@ -97,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html" rel="" target="">
+    <a class="nav-link active" href="./software.html" rel="" target="" aria-current="page">
  <span class="menu-text">Software</span></a>
   </li>  
 </ul>
@@ -111,44 +143,91 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SDM">SDM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="decomposition">decomposition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="software">software <span class="quarto-category-count">(3)</span></div><div class="category" data-category="spatial">spatial <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="Windecker.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Saras M Windecker</h1>
+<h1 class="title">Software</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content column-page" id="quarto-document-content">
-<p>I’m a Research Fellow with <a href="https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/">Nick Golding</a> in the <a href="https://www.telethonkids.org.au/our-research/brain-and-behaviour/child-health-analytics-research-program/infectious-disease-ecology-and-modelling/">Infectious Disease Ecology and Modelling team</a> at <a href="https://www.telethonkids.org.au/">Telethon Kids Institute</a>, Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R.</p>
+  
+
+</header>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/smwindecker" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://scholar.google.com.au/citations?user=h4hPhNgAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Saras-Windecker-3" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-researchgate"></i> Research Gate</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-4870-8353" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
-  </a>
-  <a href="https://twitter.com/smwindecker" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="decomposition,R,software" data-listing-file-modified-sort="1696842167881" data-listing-reading-time-sort="1">
+<a href="./software/20210810-gdaltools/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./software/20210810-gdaltools/world.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+gdaltools
+</h5>
+<div class="card-subtitle listing-subtitle">
+R package to wrap spatial data processing in <code>gdal</code>
 </div>
 </div>
- <!-- /main -->
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="decomposition,R,software" data-listing-file-modified-sort="1696841148207" data-listing-reading-time-sort="2">
+<a href="./software/20180811-mixchar/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./software/20180811-mixchar/hexsticker.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+mixchar
+</h5>
+<div class="card-subtitle listing-subtitle">
+R package for estimating carbon components from the deconvolution of thermal decay curves
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="spatial,R,SDM,software" data-listing-file-modified-sort="1696841138591" data-listing-reading-time-sort="1">
+<a href="./software/20180712-zoontutorials/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./software/20180712-zoontutorials/icon-cropped.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+zoontutorials
+</h5>
+<div class="card-subtitle listing-subtitle">
+Introductory tutorials and best practice guides for species distribution modelling using the <code>zoon</code> R package
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -169,6 +248,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

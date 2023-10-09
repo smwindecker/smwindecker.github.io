@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "gdaltools\n\n\nR package to wrap spatial data processing in gdal\n\n\n\n\n\n\n\n\n\n\n\n\n\nmixchar\n\n\nR package for estimating carbon components from the deconvolution of thermal decay curves\n\n\n\n\n\n\n\n\n\n\n\n\n\nzoontutorials\n\n\nIntroductory tutorials and best practice guides for species distribution modelling using the zoon R package\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "software/20180712-zoontutorials/index.html",
+    "href": "software/20180712-zoontutorials/index.html",
+    "title": "zoontutorials",
+    "section": "",
+    "text": "zoontutorials vignettes  zoon R package\n\nThe zoon R package (Golding et al. 2017) provides a modular framework for constructing reproducible species distribution modelling workflows. Each module is an interoperable snippet of code, which facilitates comparison and evaluation of different approaches.\nThe zoontutorials project created an series of vignettes to guide SDM best practices using zoon. Vignettes include:\n\nChoosing A Modelling Method\nData exploration\nData Sources\nIntroduction to SDMs\nModel Evaluation\nReproducibility\nSelecting and preparing covariates\n\nI helped to build this resource in my capacity as a Research Assistant. This work was supported by the R Consortium.\n\n\n\n\nReferences\n\nGolding, Nick, Tom A. August, Tim C. D. Lucas, David J. Gavaghan, E. Emiel van Loon, and Greg McInerny. 2017. “The Zoon r Package for Reproducible and Shareable Species Distribution Modelling.” Edited by Sarah Goslee. Methods in Ecology and Evolution 9 (2): 260–68. https://doi.org/10.1111/2041-210x.12858."
+  },
+  {
+    "objectID": "software/20180811-mixchar/index.html",
+    "href": "software/20180811-mixchar/index.html",
+    "title": "mixchar",
+    "section": "",
+    "text": "mixchar manuscript  mixchar R package\n\nThe mixchar R package (Windecker et al. 2021) provides a method to estimating proportions of primary carbon types in plant material. Plant cell wall biomass is composed of a range of different types of carbon. Proportions of primary carbon types are useful for estimating kinetic decay parameters or for calculation of intrinsic plant traits. Traditional methods for calculation of these components involve wet chemistry methods that can be monetarily and environmentally costly. Thermogravimetric analysis is an alternative method, already in use in the biofuel field, that involves pyrolysing dry, ground plant litter and estimating components from resulting mass decay peaks. Since different carbon types break down relatively independently during different temperature phases, we can separate the multi-peaked rate of mass loss curve into constituent parts using a mixture model. mixchar conducts this peak separation analysis in a open-source and reproducible way using R. This methodology has been tested on a range of plant litter composed primarily of soluble carbohydrates, hemicellulose, cellulose, and lignin.\nI built this package as part of my PhD thesis at University of Melbourne.\n\n\n\n\nReferences\n\nWindecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Golding. 2021. “Mixchar: An R Package for the Deconvolution of Thermal Decay Curves.” Journal of Open Research Software 9 (1): 27. https://doi.org/10.5334/jors.249."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Saras M Windecker",
@@ -7,17 +28,17 @@
     "text": "I’m a Research Fellow with Nick Golding in the Infectious Disease Ecology and Modelling team at Telethon Kids Institute, Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R."
   },
   {
+    "objectID": "software/20210810-gdaltools/index.html",
+    "href": "software/20210810-gdaltools/index.html",
+    "title": "gdaltools",
+    "section": "",
+    "text": "zenodo release  gdaltools R package\n\nTo make all steps of a research pipeline reproducible, it is important to ensure that processing of spatial data is also recorded used transparent and reproducible code. Many functions that exist to process spatial data with reprojecting or rasterizing are much slower than using gdal from the terminal. However, writing in command language is not very familiar to many R users, so this wrapper package contains a few functions to call gdal directly, from within R."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "I came to Melbourne after finishing my Bachelors and Masters at University of Pennsylvania and stayed for a PhD at University of Melbourne.\nI’m working on developing software and new models to map and forecast mosquito-borne diseases in Victoria. Before that, I spent my PhD working on soil carbon storage in freshwater wetlands.\nI enjoy implementing reproducible research practices in my science, particularly in my code, which is reflected in my commitment to reproducible research, which you can check out on my GitHub. I also really enjoy teaching coding and stats, and do so regularly at our lab’s Coding Club, at a range of conferences, workshops, and presentations."
-  },
-  {
-    "objectID": "make-a-quarto-website.html",
-    "href": "make-a-quarto-website.html",
-    "title": "make a quarto website",
-    "section": "",
-    "text": "Let’s set up a website using quarto, published with github pages.\nPreq. Github, git\n\nLog in to GitHub, click new repository. Name the repository yourusername.github.io. Don’t initialise with a readme, license, or .gitignore. Create.\nCopy\nGo to RStudio, file new project, version control, git, paste .git of new repo, choose location to save\nin terminal, type quarto create-project –type website\nadd /_site/ to .gitignore\ncommit all changes\ncreate gh-pages branch\n\n#| eval: false\ngit checkout --orphan gh-pages\ngit reset --hard # make sure you've committed changes before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n\n“Before attempting to publish you should ensure that the Source branch for your repository is gh-pages and that the site directory is set to the repository root (/). You can modify these options in Settings : Pages for your repository.”\nto preview in your viewer pane, click on the gear symbol next to render and switch to “Preview in viewer pane”.\n\nhttps://github.com/schochastics/academicons\nhttps://jpswalsh.github.io/academicons/\nmore about publishing options: https://quarto.org/docs/publishing/github-pages.html\nbasic themes: https://quarto.org/docs/output-formats/html-themes.html\nquarto publish gh-pages"
   }
 ]

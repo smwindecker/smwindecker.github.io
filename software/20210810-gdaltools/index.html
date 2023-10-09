@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Saras M Windecker - make a quarto website</title>
+<title>Saras M Windecker - gdaltools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -69,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Saras M Windecker</span>
     </a>
   </div>
@@ -87,12 +90,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/CV-WINDECKER.pdf" rel="" target="">
+    <a class="nav-link" href="../../CV/CV-WINDECKER.pdf" rel="" target="">
  <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html" rel="" target="">
+ <span class="menu-text">Software</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -113,8 +120,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">make a quarto website</h1>
-</div>
+<h1 class="title">gdaltools</h1>
+<p class="subtitle lead">R package to wrap spatial data processing in <code>gdal</code></p>
+  <div class="quarto-categories">
+    <div class="quarto-category">decomposition</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">software</div>
+  </div>
+  </div>
 
 
 
@@ -128,31 +141,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Let’s set up a website using quarto, published with github pages.</p>
-<p>Preq. Github, git</p>
-<ol type="1">
-<li>Log in to GitHub, click new repository. Name the repository <em>yourusername.github.io</em>. Don’t initialise with a readme, license, or .gitignore. Create.</li>
-<li>Copy</li>
-<li>Go to RStudio, file new project, version control, git, paste .git of new repo, choose location to save</li>
-<li>in terminal, type quarto create-project –type website</li>
-<li>add /_site/ to .gitignore</li>
-<li>commit all changes</li>
-<li>create gh-pages branch</li>
-</ol>
-<pre class="{bash}"><code>#| eval: false
-git checkout --orphan gh-pages
-git reset --hard # make sure you've committed changes before running this!
-git commit --allow-empty -m "Initialising gh-pages branch"
-git push origin gh-pages</code></pre>
-<ol start="8" type="1">
-<li>“Before attempting to publish you should ensure that the <strong>Source</strong> branch for your repository is <code>gh-pages</code> and that the site directory is set to the repository root (<code>/</code>). You can modify these options in <strong>Settings</strong> : <strong>Pages</strong> for your repository.”</li>
-<li>to preview in your viewer pane, click on the gear symbol next to render and switch to “Preview in viewer pane”.</li>
-</ol>
-<p>https://github.com/schochastics/academicons</p>
-<p>https://jpswalsh.github.io/academicons/</p>
-<p>more about publishing options: https://quarto.org/docs/publishing/github-pages.html</p>
-<p>basic themes: https://quarto.org/docs/output-formats/html-themes.html</p>
-<pre class="{bash}"><code>quarto publish gh-pages </code></pre>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gdal.png" class="img-fluid figure-img" style="width:30.0%" alt="A flowchart showing t."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text">
+<p><a href="https://zenodo.org/badge/latestdoi/161569078" class="btn" role="button"><i class="fa-solid fa-link" aria-label="link"></i> zenodo release</a> <a href="https://github.com/smwindecker/gdaltools" class="btn" role="button"><i class="fa-brands fa-github" aria-label="github"></i> gdaltools R package</a></p>
+</div>
+<p>To make all steps of a research pipeline reproducible, it is important to ensure that processing of spatial data is also recorded used transparent and reproducible code. Many functions that exist to process spatial data with reprojecting or rasterizing are much slower than using <code>gdal</code> from the terminal. However, writing in command language is not very familiar to many R users, so this wrapper package contains a few functions to call <code>gdal</code> directly, from within R.</p>
 
 
 
