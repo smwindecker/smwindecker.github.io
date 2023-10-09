@@ -1,24 +1,34 @@
 /*-- scss:defaults --*/
 // Colors
-$light-sage-green: #ece6ce;
-$dark-sage-green: #b6b09b;
-$cream: #631d2b;
+$light-cream: #faf5e3;
+$cream: #ece6ce;
+$dark-cream: #b6b09b;
+$maroon: #631d2b;
 $gray: #64605f;
-$light-gray: #a6bfbf;
-$purple: #467d7f;
+$light-blue: #a6bfbf;
+$blue: #467d7f;
 
 // Base document colors
-$navbar-bg: $cream; // navbar
-$navbar-fg: $dark-sage-green; // navbar foreground elements
-$navbar-hl: $purple; // highlight color when hovering over navbar links
-$body-bg: $light-sage-green; // page background 
+$navbar-bg: $maroon; // navbar
+$navbar-fg: $dark-cream; // navbar foreground elements
+$navbar-hl: $blue; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
 $body-color: $gray; // page text 
-$footer-bg: $cream; // footer 
-$link-color: $purple; // hyperlinks 
+$footer-bg: $maroon; // footer 
+$link-color: $blue; // hyperlinks 
 
 // Inline code
-$code-bg: #d4cba7; // inline code background color
-$code-color: $purple; // inline code text color
+$code-bg: $light-cream; // inline code background color
+$code-color: $blue; // inline code text color
 
 // Code blocks
-$code-block-bg: $light-gray; // code block background color
+$code-block-bg: $light-blue; // code block background color
+
+
+// button hover styling
+.btn:hover {
+  color: $light-cream;
+  background-color: $blue;
+  border-color: $gray;
+}
+
