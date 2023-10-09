@@ -10,7 +10,7 @@
 <atom:link href="https://www.smwindecker.com/software.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Mon, 09 Oct 2023 12:14:27 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Oct 2023 12:24:53 GMT</lastBuildDate>
 <item>
   <title>gdaltools</title>
   <link>https://www.smwindecker.com/software/20210810-gdaltools/index.html</link>
@@ -39,7 +39,7 @@
   <category>R</category>
   <category>software</category>
   <guid>https://www.smwindecker.com/software/20210810-gdaltools/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:14:27 GMT</pubDate>
+  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20210810-gdaltools/world.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -76,7 +76,7 @@ Windecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Goldin
   <category>R</category>
   <category>software</category>
   <guid>https://www.smwindecker.com/software/20180811-mixchar/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:14:27 GMT</pubDate>
+  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180811-mixchar/hexsticker.png" medium="image" type="image/png" height="167" width="144"/>
 </item>
 <item>
@@ -124,7 +124,7 @@ Golding, Nick, Tom A. August, Tim C. D. Lucas, David J. Gavaghan, E. Emiel van L
   <category>SDM</category>
   <category>software</category>
   <guid>https://www.smwindecker.com/software/20180712-zoontutorials/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:14:27 GMT</pubDate>
+  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180712-zoontutorials/icon-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
