@@ -1,0 +1,41 @@
+---
+title: "zoontutorials"
+subtitle: "Introductory tutorials and best practice guides for species distribution modelling using the `zoon` R package"
+categories: [spatial, R, SDM, software] 
+image: icon-cropped.jpg
+draft: false
+bibliography: references.bib
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "75%" 
+#| fig-alt: "A flowchart showing t."
+knitr::include_graphics("icon-workflow.jpg")
+```
+
+::: center-text
+[{{< fa book >}} zoontutorials vignettes](https://zoonproject.github.io/zoontutorials/index.html){.btn role="button"} [{{< fa brands github >}} zoon R package](https://github.com/zoonproject/zoon){.btn role="button"}
+:::
+
+The `zoon` R package [@golding2017] provides a modular framework for constructing reproducible species distribution modelling workflows. Each module is an interoperable snippet of code, which facilitates comparison and evaluation of different approaches.
+
+The `zoontutorials` project created an series of vignettes to guide SDM best practices using `zoon`. Vignettes include:
+
+-   Choosing A Modelling Method
+
+-   Data exploration
+
+-   Data Sources
+
+-   Introduction to SDMs
+
+-   Model Evaluation
+
+-   Reproducibility
+
+-   Selecting and preparing covariates
+
+I helped to build this resource in my capacity as a Research Assistant. This work was supported by the R Consortium.

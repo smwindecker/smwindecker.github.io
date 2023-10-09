@@ -2,7 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-
+*.DS_Store
 /.quarto/
 /_site/
 /_extensions/
+/_freeze/

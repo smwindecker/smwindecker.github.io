@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://www.smwindecker.com"
   title: "Saras M Windecker"
   # favicon: 
   navbar:
@@ -12,6 +13,9 @@ website:
       - about.qmd
       - href: CV/CV-WINDECKER.pdf
         text: CV
+      # - workshops.qmd
+      - software.qmd
+      # - posts.qmd
   page-footer:
     center: "© Saras M Windecker, 2023"
 

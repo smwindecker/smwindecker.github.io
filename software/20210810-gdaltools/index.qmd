@@ -1,0 +1,22 @@
+---
+title: "gdaltools"
+subtitle: "R package to wrap spatial data processing in `gdal`"
+categories: [decomposition, R, software] 
+image: world.jpeg
+draft: false
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "30%" 
+#| fig-alt: "A flowchart showing t."
+knitr::include_graphics("gdal.png")
+```
+
+::: center-text
+[{{< fa link >}} zenodo release](https://zenodo.org/badge/latestdoi/161569078){.btn role="button"} [{{< fa brands github >}} gdaltools  R package](https://github.com/smwindecker/gdaltools){.btn role="button"}
+:::
+
+To make all steps of a research pipeline reproducible, it is important to ensure that processing of spatial data is also recorded used transparent and reproducible code. Many functions that exist to process spatial data with reprojecting or rasterizing are much slower than using `gdal` from the terminal. However, writing in command language is not very familiar to many R users, so this wrapper package contains a few functions to call `gdal` directly, from within R.

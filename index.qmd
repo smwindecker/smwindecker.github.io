@@ -12,9 +12,11 @@ about:
       href: https://scholar.google.com.au/citations?user=h4hPhNgAAAAJ
     - text: "{{< ai researchgate >}} Research Gate"
       href: https://www.researchgate.net/profile/Saras-Windecker-3 
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-4870-8353 
     - icon: twitter
       text: Twitter
       href: https://twitter.com/smwindecker
 ---
 
-I'm a Research Fellow with [Nick Golding](https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/) in the [Infectious Disease Ecology and Modelling team](https://qaeco.com/) at [Telethon Kids Institute](https://www.telethonkids.org.au/), Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R. 
+I'm a Research Fellow with [Nick Golding](https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/) in the [Infectious Disease Ecology and Modelling team](https://www.telethonkids.org.au/our-research/brain-and-behaviour/child-health-analytics-research-program/infectious-disease-ecology-and-modelling/) at [Telethon Kids Institute](https://www.telethonkids.org.au/), Perth, WA, Australia. I work remotely from sunny Brisbane on developing and operationalising statistical models for mapping and forecasting in public health. I am passionate about reproducible research, and enjoy teaching programming in R. 

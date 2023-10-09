@@ -1,0 +1,25 @@
+---
+title: "mixchar"
+subtitle: "R package for estimating carbon components from the deconvolution of thermal decay curves"
+categories: [decomposition, R, software] 
+image: hexsticker.png
+draft: false
+bibliography: references.bib
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "75%" 
+#| fig-alt: "A flowchart showing t."
+knitr::include_graphics("logo.png")
+```
+
+::: center-text
+[{{< fa book >}} mixchar manuscript](https://doi.org/10.5334/jors.249){.btn role="button"} [{{< fa brands github >}} mixchar R package](https://www.smwindecker.com/mixchar/){.btn role="button"}
+:::
+
+The `mixchar` R package [@windecker2021] provides a method to estimating proportions of primary carbon types in plant material. Plant cell wall biomass is composed of a range of different types of carbon. Proportions of primary carbon types are useful for estimating kinetic decay parameters or for calculation of intrinsic plant traits. Traditional methods for calculation of these components involve wet chemistry methods that can be monetarily and environmentally costly. Thermogravimetric analysis is an alternative method, already in use in the biofuel field, that involves pyrolysing dry, ground plant litter and estimating components from resulting mass decay peaks. Since different carbon types break down relatively independently during different temperature phases, we can separate the multi-peaked rate of mass loss curve into constituent parts using a mixture model. `mixchar` conducts this peak separation analysis in a open-source and reproducible way using R. This methodology has been tested on a range of plant litter composed primarily of soluble carbohydrates, hemicellulose, cellulose, and lignin.
+
+I built this package as part of my PhD thesis at University of Melbourne.
