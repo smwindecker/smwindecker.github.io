@@ -1,0 +1,74 @@
+---
+title: "Spanish language modelling intensive"
+subtitle: "3-day modelling intensive given in Bolivia, 2023"
+author:
+  - name: Saras Windecker, David Uribe-Rivera
+date: 23-02-2023
+categories: [R, statistics, ecology] 
+image: mixedmod.png
+draft: false 
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Intensive course on data analysis with linear models, GLMs, and mixed models given by Saras Windecker and David Uribe-River at Universidad Mayor de San Andrés (UMSA), La Paz 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba 6 - 8 Mar. With support from R Consortium. 
+
+
+#### Diapositivas:
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "1-introduccion.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "2-modelos_lineales.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "3-modelos_lineales.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "4-modelos_mixtos.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "5-modelos_lineales_generalizados.html",
+  ratio = "16:9"
+)
+```
+
+
+```{r}
+#| echo: false
+#| fig.show: "hold"
+#| fig.align: 'center' 
+#| out.width: "50%"
+knitr::include_graphics(c('lapaz.jpg', 'cocha.JPG'))
+```
+
+
+<br>
+
+::: {.center-text}
+[{{< fa brands github title="Octocat, the GitHub logo" >}} course materials](https://github.com/smwindecker/r-para-ecologia){.btn role="button"} 
+:::
+
