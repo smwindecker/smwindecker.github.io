@@ -21,6 +21,132 @@
     "text": "mixchar manuscript  mixchar R package\n\nThe mixchar R package (Windecker et al. 2021) provides a method to estimating proportions of primary carbon types in plant material. Plant cell wall biomass is composed of a range of different types of carbon. Proportions of primary carbon types are useful for estimating kinetic decay parameters or for calculation of intrinsic plant traits. Traditional methods for calculation of these components involve wet chemistry methods that can be monetarily and environmentally costly. Thermogravimetric analysis is an alternative method, already in use in the biofuel field, that involves pyrolysing dry, ground plant litter and estimating components from resulting mass decay peaks. Since different carbon types break down relatively independently during different temperature phases, we can separate the multi-peaked rate of mass loss curve into constituent parts using a mixture model. mixchar conducts this peak separation analysis in a open-source and reproducible way using R. This methodology has been tested on a range of plant litter composed primarily of soluble carbohydrates, hemicellulose, cellulose, and lignin.\nI built this package as part of my PhD thesis at University of Melbourne.\n\n\n\n\nReferences\n\nWindecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Golding. 2021. “Mixchar: An R Package for the Deconvolution of Thermal Decay Curves.” Journal of Open Research Software 9 (1): 27. https://doi.org/10.5334/jors.249."
   },
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Spanish language modelling intensive\n\n\n3-day modelling intensive given in Bolivia, 2023\n\n\n\n\n\n\nSaras Windecker, David Uribe-Rivera\n\n\nNov 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel-based data integration\n\n\nWorkshop taught at ISEC 2022 and Species on the Move 2023\n\n\n\n\n\n\nSaras Windecker, David Uribe-Rivera, & Nick Golding\n\n\nAug 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeer Code Review\n\n\nHackathon from SORTEE 2021 and 2022\n\n\n\n\n\n\nSaras Windecker & Ed Ivimey-Cook\n\n\nNov 7, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel Up your R Package\n\n\nWorkshop taught at ISEC 2020\n\n\n\n\n\n\nSaras Windecker & Nick Golding\n\n\nOct 6, 2021\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "workshops/20220711-peer-code-review/index.html",
+    "href": "workshops/20220711-peer-code-review/index.html",
+    "title": "Peer Code Review",
+    "section": "",
+    "text": "These slides and manuscript follow on from an unconference and two hackathons at Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference July, 2021 and July, 2022.\n\n\n\n\n\n\n\n\n\n Code review manuscript  SORTEE peer code review"
+  },
+  {
+    "objectID": "workshops/20230908-model-based-data-integration/index.html",
+    "href": "workshops/20230908-model-based-data-integration/index.html",
+    "title": "Model-based data integration",
+    "section": "",
+    "text": "Workshop on model-based data integration, presented at:\n\n2022 International Statistical Ecology Conference skills showcase by Saras Windecker & Nick Golding\n2023 Species on the Move pre-conference workshop by Saras Windecker & David Uribe-Rivera\n\n\n\n\n\n\n\n\n\n\n\n course materials  code demonstration"
+  },
+  {
+    "objectID": "workshops/20230223-r-para-ecolgia/index.html",
+    "href": "workshops/20230223-r-para-ecolgia/index.html",
+    "title": "Spanish language modelling intensive",
+    "section": "",
+    "text": "Intensive course on data analysis with linear models, GLMs, and mixed models given by Saras Windecker and David Uribe-River at Universidad Mayor de San Andrés (UMSA), La Paz 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba 6 - 8 Mar. With support from R Consortium.\nDiapositivas:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n course materials"
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html",
+    "href": "workshops/20200712-level-up-R/index.html",
+    "title": "Level Up your R Package",
+    "section": "",
+    "text": "These notes accompany a course taught by Nick Golding and Saras Windecker at the International Statistical Ecology Conference, June 2020, entitled “Level Up your R Package”."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#why-usethis",
+    "href": "workshops/20200712-level-up-R/index.html#why-usethis",
+    "title": "Level Up your R Package",
+    "section": "why usethis?",
+    "text": "why usethis?\nThis package makes is designed to make project setup and development easier. You can read more information here. devtools::install_github(\"r-lib/usethis\") usethis::create_package(path-to-new-package)"
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#add-a-license",
+    "href": "workshops/20200712-level-up-R/index.html#add-a-license",
+    "title": "Level Up your R Package",
+    "section": "add a license",
+    "text": "add a license\nThere are many different licenses to choose from! A discussion of these can be found here. usethis has a handy shortcut to add the MIT license. usethis::use_mit_license(\"YOUR NAME\")"
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#documenting-functions",
+    "href": "workshops/20200712-level-up-R/index.html#documenting-functions",
+    "title": "Level Up your R Package",
+    "section": "Documenting functions",
+    "text": "Documenting functions\nTo make your functions available to a user, they need to have documentation. Add documentation using these steps:\n\nAdd Roxygen skeleton using Code &gt; Insert Roxygen Skeleton\nFill in fields with required information. More detail and common tags can be found in the Devtools cheatsheet. NOTE: external facing functions need the @export tag.\n“Document” the documentation so it creates a .Rd file in the man/ folder, either using Build &gt; Document, devtools::document(), or a shortcut (CRL + SHIFT + D for windows or CMD + SHIFT + D on Mac).\n\nTo use these newly documented functions, make sure to re-install the package.\nNOTE: redocument after changing any Roxygen headers! The NAMESPACE file updates only when you Document."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#what-makes-good-documentation",
+    "href": "workshops/20200712-level-up-R/index.html#what-makes-good-documentation",
+    "title": "Level Up your R Package",
+    "section": "What makes good documentation?",
+    "text": "What makes good documentation?\n\nexamples\nparameter descriptions\ndescription of what is returned\ntype of R value that each parameter should be\nwhich function arguments are optional\ndefault arguments\nclear description of arguments\nwhat else you can do with the object this function returns"
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#arguments",
+    "href": "workshops/20200712-level-up-R/index.html#arguments",
+    "title": "Level Up your R Package",
+    "section": "Arguments",
+    "text": "Arguments\nTry to make argument choices explicit. To add a default, set it in the function arguments like so argument = default. To provide specific options for the inputs, add them like so argument = c(option1, option2). You can then check that one of the possible input options was chosen using argument &lt;- match.arg(argument) at the top of the body of the function."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#s3-methods",
+    "href": "workshops/20200712-level-up-R/index.html#s3-methods",
+    "title": "Level Up your R Package",
+    "section": "S3 Methods",
+    "text": "S3 Methods\nS3 methods are default functions associated with a particular type of object, such as plot functions, summaries, and predict functions for stats objects. More information can be found here.\n\nYou need to make sure the object you want to pass into your S3 function is assigned a specific class. In our example, we gave our object class brve. NOTE: our class name doesn’t need to match the package name! It can be whatever you like. NOTE: if we change it to only have our new class, it loses its previous classes! So best to add the new class. ie class(object) &lt;- c('brve', class(object)). By putting our class first, that becomes the default.\nAdapt S3 functions to your requirements, and rename them, for example summary.brve() for an object of class brve specific summary. TIP: begin the with help file for the generic method you are trying to build off (for ex ?predict.glm for predict S3 methods), this will help you understand the structure of the inputs.\nS3 methods have special argument names! Check out an equivalent S3 method (ex. head(predict.glm ) to check what they should be called.\nDocument your function. When you document, Roxygen will automatically know it’s an S3 method if you name it right! Once you document, you can see this added in a special way in the NAMESPACE file. NOTE: even though the S3 methods are technically exported, they are not shown as available functions! NOTE: your S3 method will be named something like predict.brve but if you are applying it, then you only need to call predict() because R will see that it is an object of class brve, and apply the correct method to it."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#internal-functions",
+    "href": "workshops/20200712-level-up-R/index.html#internal-functions",
+    "title": "Level Up your R Package",
+    "section": "internal functions",
+    "text": "internal functions\nSmaller functions that do individual things are often easier to work with and test. Two main kinds of internal functions.\nThe first may be functions used inside another function. These would be best placed in the same file, underneath the function they are called in. Remember these still need their own Roxygen headers and documentation.\nThe second are internal functions that are used across multiple functions in the package, we would tend to place in a separate helpers.R file.\nInternal functions do not need to be seen by the user, so you can omit the @export tag in the Roxygen header."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#coding-style",
+    "href": "workshops/20200712-level-up-R/index.html#coding-style",
+    "title": "Level Up your R Package",
+    "section": "coding style",
+    "text": "coding style\n\nfail early! Meaning add error statements that check for correct input and other information for the user early on. That way as little code as possible is run before it is stopped.\navoid too many nested if statements that reduce readability. More tips on how to do this are here: Code Smells and Feels by Jenny Bryan.\nlong lines of code are not very readable! Keep em tight.\nreturn statement only necessary if the object to be returned is not obvious."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#adding-data",
+    "href": "workshops/20200712-level-up-R/index.html#adding-data",
+    "title": "Level Up your R Package",
+    "section": "adding data",
+    "text": "adding data\nAdding data to a package is a great way to provide the user with something to play with while learning how to use the package, and also to provide a template for the format the data should be in.\nAdd data using usethis::use_data(dataframe). Where dataframe is an object in your environment. This code adds the data as an .rda file to a new folder called data/. Then you need to add documentation for this data in a data.R file in the R/ folder, instructions here."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#testing",
+    "href": "workshops/20200712-level-up-R/index.html#testing",
+    "title": "Level Up your R Package",
+    "section": "testing",
+    "text": "testing\nTests check that your function does what you expect it to.\n\nregression test: to check if something you changed broke something else\nunit test: test a specific bit of code (inside the function, not necessarily the whole function as the user would call it)\nintegration test: testing how all the bits of code fit together. Matching what a user would do at the higher level of organisation.\ncreate baseline files you’ll need with usethis::use_test(\"name_for_test_file\")\n\nwrite the test code in the file, located in tests/testthat/test-name_for_test_file.R.\nit is useful to organise and name your tests in logical relation to the function they correspond to.\n\nexpect_error() is nice because it allows you to specify not just that it should error, but which error in particular you expect a user to receive.\nmore info here.\n\nTIP: if you want to write and run tests interactively, you will likely want to be able to access your internal functions to test them. To load them into your environment to test them, you could use devtools::load_all() which will bring all your functions into your environment.\nNOTE: stop() v. tests. Stops relate to checks to warn the user that something is wrong with what they’ve input. The test code is related to whether the code itself is working correctly."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#code-coverage",
+    "href": "workshops/20200712-level-up-R/index.html#code-coverage",
+    "title": "Level Up your R Package",
+    "section": "code coverage",
+    "text": "code coverage\ncovr::package_coverage() to check what proportion of the code in your package is tested."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#continuous-integration",
+    "href": "workshops/20200712-level-up-R/index.html#continuous-integration",
+    "title": "Level Up your R Package",
+    "section": "continuous integration",
+    "text": "continuous integration\nTakes your code and tests and runs them on an external server. Also helps facilitate testing on different operating systems/versions of R.\nTry out usethis::use_github_action_check_release() to set up CI. To learn more about GitHub Actions, check out this ebook."
+  },
+  {
+    "objectID": "workshops/20200712-level-up-R/index.html#other",
+    "href": "workshops/20200712-level-up-R/index.html#other",
+    "title": "Level Up your R Package",
+    "section": "other",
+    "text": "other\n\nlintr for style checking! lintr::lint_package()\n\nspell check with usethis::use_spell_check()\n\ngit resources\nget an automated review of your package with goodpractice::gp()\n\ndeveloper’s guide.\n\nTIP: :: is a way to access an exported function from a package. ::: accesses an internal, ie not exported one.\nGood luck!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Saras M Windecker",

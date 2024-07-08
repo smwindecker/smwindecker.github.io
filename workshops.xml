@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Saras M Windecker</title>
+<link>https://www.smwindecker.com/workshops.html</link>
+<atom:link href="https://www.smwindecker.com/workshops.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.555</generator>
+<lastBuildDate>Fri, 01 Nov 2024 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Spanish language modelling intensive</title>
+  <dc:creator>Saras Windecker, David Uribe-Rivera</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/</link>
+  <description><![CDATA[ <p>Intensive course on data analysis with linear models, GLMs, and mixed models given by Saras Windecker and David Uribe-River at Universidad Mayor de San Andrés (UMSA), La Paz 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba 6 - 8 Mar.&nbsp;With support from R Consortium.</p>
+<section id="diapositivas" class="level4"><h4 class="anchored" data-anchor-id="diapositivas">Diapositivas:</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="1-introduccion.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="2-modelos_lineales.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="3-modelos_lineales.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="4-modelos_mixtos.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="5-modelos_lineales_generalizados.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/lapaz.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/cocha.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/r-para-ecologia" class="btn"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> course materials</a></p>
+</div>
+
+
+</section> ]]></description>
+  <category>R</category>
+  <category>statistics</category>
+  <category>ecology</category>
+  <guid>https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/</guid>
+  <pubDate>Fri, 01 Nov 2024 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/mixedmod.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Model-based data integration</title>
+  <dc:creator>Saras Windecker, David Uribe-Rivera, &amp; Nick Golding</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20230908-model-based-data-integration/</link>
+  <description><![CDATA[ <p>Workshop on model-based data integration, presented at:</p>
+<ul>
+<li>2022 International Statistical Ecology Conference skills showcase by Saras Windecker &amp; Nick Golding</li>
+<li>2023 Species on the Move pre-conference workshop by Saras Windecker &amp; David Uribe-Rivera</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="slides.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/IntegratedModels-Workshop" class="btn"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> course materials</a> <a href="integrated_models.html" class="btn"><i class="fa-solid fa-code" title="code symbol" aria-label="code"></i> code demonstration</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>statistics</category>
+  <category>ecology</category>
+  <guid>https://www.smwindecker.com/workshops/20230908-model-based-data-integration/</guid>
+  <pubDate>Tue, 08 Aug 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20230908-model-based-data-integration/thumbnail.png" medium="image" type="image/png" height="118" width="144"/>
+</item>
+<item>
+  <title>Peer Code Review</title>
+  <dc:creator>Saras Windecker &amp; Ed Ivimey-Cook</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20220711-peer-code-review/</link>
+  <description><![CDATA[ <p>These slides and manuscript follow on from an unconference and two hackathons at <a href="https://www.sortee.org/">Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference</a> July, 2021 and July, 2022.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://sortee.github.io/peer-code-review/hackathon2022.html#/section" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="center-text">
+<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.14230" class="btn"><i class="fa-solid fa-book" aria-label="book"></i> Code review manuscript</a> <a href="https://sortee.github.io/peer-code-review/" class="btn"><i class="fa-brands fa-github" aria-label="github"></i> SORTEE peer code review</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>software</category>
+  <category>RSE</category>
+  <guid>https://www.smwindecker.com/workshops/20220711-peer-code-review/</guid>
+  <pubDate>Sun, 06 Nov 2022 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20220711-peer-code-review/fig1.png" medium="image" type="image/png" height="112" width="144"/>
+</item>
+<item>
+  <title>Level Up your R Package</title>
+  <dc:creator>Saras Windecker &amp; Nick Golding</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20200712-level-up-R/</link>
+  <description><![CDATA[ <div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20200712-level-up-R/badges.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="A flowchart showing t."></p>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>These notes accompany a course taught by Nick Golding and Saras Windecker at the <a href="https://isec2020.multiscreensite.com/training-program#SkillsShowcase">International Statistical Ecology Conference, June 2020</a>, entitled “Level Up your R Package”.</p>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/level-up-R" class="btn"><i class="fa-brands fa-github" aria-label="github"></i> course materials</a></p>
+</div>
+<section id="when-do-we-create-an-r-package" class="level1"><h1>When do we create an R package?</h1>
+<ul>
+<li>to more easily reuse code</li>
+<li>to make it accessible to others, either collaborators or wider audience</li>
+<li>to present with a finished project, to ensure it’s reproducible</li>
+<li>to formalise tools you use often</li>
+</ul></section><section id="setting-up-a-basic-package" class="level1"><h1>Setting up a basic package</h1>
+<section id="why-usethis" class="level2"><h2 class="anchored" data-anchor-id="why-usethis">why <code>usethis</code>?</h2>
+<p>This package makes is designed to make project setup and development easier. You can read more information <a href="https://usethis.r-lib.org/">here</a>. <code>devtools::install_github("r-lib/usethis")</code> <code>usethis::create_package(path-to-new-package)</code></p>
+</section><section id="add-a-license" class="level2"><h2 class="anchored" data-anchor-id="add-a-license">add a license</h2>
+<p>There are many different licenses to choose from! A discussion of these can be found <a href="http://r-pkgs.had.co.nz/description.html">here</a>. <code>usethis</code> has a handy shortcut to add the MIT license. <code>usethis::use_mit_license("YOUR NAME")</code></p>
+</section><section id="documenting-functions" class="level2"><h2 class="anchored" data-anchor-id="documenting-functions">Documenting functions</h2>
+<p>To make your functions available to a user, they need to have documentation. Add documentation using these steps:</p>
+<ol type="1">
+<li>Add Roxygen skeleton using Code &gt; Insert Roxygen Skeleton</li>
+<li>Fill in fields with required information. More detail and common tags can be found in the <a href="https://rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf">Devtools cheatsheet</a>. NOTE: external facing functions need the <code>@export</code> tag.</li>
+<li>“Document” the documentation so it creates a <code>.Rd</code> file in the <code>man/</code> folder, either using Build &gt; Document, <code><a href="https://devtools.r-lib.org/reference/document.html">devtools::document()</a></code>, or a shortcut (CRL + SHIFT + D for windows or CMD + SHIFT + D on Mac).</li>
+</ol>
+<p>To use these newly documented functions, make sure to re-install the package.</p>
+<p>NOTE: redocument after changing any Roxygen headers! The NAMESPACE file updates only when you Document.</p>
+</section><section id="what-makes-good-documentation" class="level2"><h2 class="anchored" data-anchor-id="what-makes-good-documentation">What makes good documentation?</h2>
+<ul>
+<li>examples</li>
+<li>parameter descriptions</li>
+<li>description of what is returned</li>
+<li>type of R value that each parameter should be</li>
+<li>which function arguments are optional</li>
+<li>default arguments</li>
+<li>clear description of arguments</li>
+<li>what else you can do with the object this function returns</li>
+</ul></section></section><section id="reviewing" class="level1"><h1>Reviewing</h1>
+<p>TIP: best way to get better at writing packages, is to start reviewing them!</p>
+<p>Notes from reviewing the user interface of our initial function:</p>
+<ul>
+<li>input arguments repetitive and related to several different steps</li>
+<li>default prediction type, without showing two options</li>
+<li>input data and prediction data both as arguments</li>
+<li>only returns prediction, not model. cannot plot or summarise later.</li>
+<li>have to re-run model if want to predict to different data.</li>
+</ul>
+<p>Reviewing usability:</p>
+<ul>
+<li>not detailed examples</li>
+<li>no example data to play with</li>
+<li>unclear how to interpret the plots</li>
+<li>unclear error messages</li>
+<li>unclear guidance on input format</li>
+</ul></section><section id="level-up-your-user-interface" class="level1"><h1>Level up your user interface</h1>
+<p>TIP: use consistent naming within your package! <a href="https://style.tidyverse.org">see</a></p>
+<section id="arguments" class="level2"><h2 class="anchored" data-anchor-id="arguments">Arguments</h2>
+<p>Try to make argument choices explicit. To add a default, set it in the function arguments like so <code>argument = default</code>. To provide specific options for the inputs, add them like so <code>argument = c(option1, option2)</code>. You can then check that one of the possible input options was chosen using <code>argument &lt;- match.arg(argument)</code> at the top of the body of the function.</p>
+</section><section id="s3-methods" class="level2"><h2 class="anchored" data-anchor-id="s3-methods">S3 Methods</h2>
+<p>S3 methods are default functions associated with a particular type of object, such as plot functions, summaries, and predict functions for stats objects. More information can be found <a href="http://adv-r.had.co.nz/S3.html">here</a>.</p>
+<ol type="1">
+<li>You need to make sure the object you want to pass into your S3 function is assigned a specific class. In our example, we gave our object class <code>brve</code>. NOTE: our class name doesn’t need to match the package name! It can be whatever you like. NOTE: if we change it to only have our new class, it loses its previous classes! So best to add the new class. ie <code>class(object) &lt;- c('brve', class(object))</code>. By putting our class first, that becomes the default.</li>
+<li>Adapt S3 functions to your requirements, and rename them, for example <code>summary.brve()</code> for an object of class brve specific summary. TIP: begin the with help file for the generic method you are trying to build off (for ex <code><a href="https://rdrr.io/r/stats/predict.glm.html">?predict.glm</a></code> for predict S3 methods), this will help you understand the structure of the inputs.</li>
+<li>S3 methods have special argument names! Check out an equivalent S3 method (ex. <code>head(predict.glm )</code> to check what they should be called.</li>
+<li>Document your function. When you document, Roxygen will automatically know it’s an S3 method if you name it right! Once you document, you can see this added in a special way in the NAMESPACE file. NOTE: even though the S3 methods are technically exported, they are not shown as available functions! NOTE: your S3 method will be named something like predict.brve but if you are applying it, then you only need to call <code><a href="https://rdrr.io/r/stats/predict.html">predict()</a></code> because R will see that it is an object of class brve, and apply the correct method to it.</li>
+</ol></section><section id="internal-functions" class="level2"><h2 class="anchored" data-anchor-id="internal-functions">internal functions</h2>
+<p>Smaller functions that do individual things are often easier to work with and test. Two main kinds of internal functions.</p>
+<p>The first may be functions used inside another function. These would be best placed in the same file, underneath the function they are called in. Remember these still need their own Roxygen headers and documentation.</p>
+<p>The second are internal functions that are used across multiple functions in the package, we would tend to place in a separate <code>helpers.R</code> file.</p>
+<p>Internal functions do not need to be seen by the user, so you can omit the <code>@export</code> tag in the Roxygen header.</p>
+</section><section id="coding-style" class="level2"><h2 class="anchored" data-anchor-id="coding-style">coding style</h2>
+<ul>
+<li>fail early! Meaning add error statements that check for correct input and other information for the user early on. That way as little code as possible is run before it is stopped.</li>
+<li>avoid too many nested if statements that reduce readability. More tips on how to do this are here: <a href="https://www.youtube.com/watch?v=7oyiPBjLAWY&amp;feature=youtu.be">Code Smells and Feels by Jenny Bryan</a>.</li>
+<li>long lines of code are not very readable! Keep em tight.</li>
+<li>return statement only necessary if the object to be returned is not obvious.</li>
+</ul></section><section id="adding-data" class="level2"><h2 class="anchored" data-anchor-id="adding-data">adding data</h2>
+<p>Adding data to a package is a great way to provide the user with something to play with while learning how to use the package, and also to provide a template for the format the data should be in.</p>
+<p>Add data using <code>usethis::use_data(dataframe)</code>. Where <code>dataframe</code> is an object in your environment. This code adds the data as an .rda file to a new folder called <code>data/</code>. Then you need to add documentation for this data in a <code>data.R</code> file in the <code>R/</code> folder, instructions <a href="https://r-pkgs.org/data.html">here</a>.</p>
+</section><section id="testing" class="level2"><h2 class="anchored" data-anchor-id="testing">testing</h2>
+<p>Tests check that your function does what you expect it to.</p>
+<ul>
+<li>regression test: to check if something you changed broke something else</li>
+<li>unit test: test a specific bit of code (inside the function, not necessarily the whole function as the user would call it)</li>
+<li>integration test: testing how all the bits of code fit together. Matching what a user would do at the higher level of organisation.</li>
+<li>create baseline files you’ll need with <code>usethis::use_test("name_for_test_file")</code>
+</li>
+<li>write the test code in the file, located in <code>tests/testthat/test-name_for_test_file.R</code>.</li>
+<li>it is useful to organise and name your tests in logical relation to the function they correspond to.</li>
+<li>
+<code>expect_error()</code> is nice because it allows you to specify not just that it should error, but which error in particular you expect a user to receive.</li>
+<li>more info <a href="http://r-pkgs.had.co.nz/tests.html">here</a>.</li>
+</ul>
+<p>TIP: if you want to write and run tests interactively, you will likely want to be able to access your internal functions to test them. To load them into your environment to test them, you could use <code><a href="https://devtools.r-lib.org/reference/load_all.html">devtools::load_all()</a></code> which will bring all your functions into your environment.</p>
+<p>NOTE: <code><a href="https://rdrr.io/r/base/stop.html">stop()</a></code> v. tests. Stops relate to checks to warn the user that something is wrong with what they’ve input. The test code is related to whether the code itself is working correctly.</p>
+</section><section id="code-coverage" class="level2"><h2 class="anchored" data-anchor-id="code-coverage">code coverage</h2>
+<p><code><a href="http://covr.r-lib.org/reference/package_coverage.html">covr::package_coverage()</a></code> to check what proportion of the code in your package is tested.</p>
+</section><section id="continuous-integration" class="level2"><h2 class="anchored" data-anchor-id="continuous-integration">continuous integration</h2>
+<p>Takes your code and tests and runs them on an external server. Also helps facilitate testing on different operating systems/versions of R.</p>
+<p>Try out <code><a href="https://usethis.r-lib.org/reference/use_github_actions.html">usethis::use_github_action_check_release()</a></code> to set up CI. To learn more about GitHub Actions, check out this <a href="https://ropenscilabs.github.io/actions_sandbox/">ebook</a>.</p>
+</section><section id="other" class="level2"><h2 class="anchored" data-anchor-id="other">other</h2>
+<ul>
+<li>lintr for style checking! <code><a href="https://lintr.r-lib.org/reference/lint.html">lintr::lint_package()</a></code>
+</li>
+<li>spell check with <code><a href="https://usethis.r-lib.org/reference/use_spell_check.html">usethis::use_spell_check()</a></code>
+</li>
+<li><a href="https://happygitwithr.com">git resources</a></li>
+<li>get an automated review of your package with <code><a href="https://rdrr.io/pkg/goodpractice/man/gp.html">goodpractice::gp()</a></code>
+</li>
+<li>developer’s <a href="https://devguide.ropensci.org/reviewtemplate.html">guide</a>.</li>
+</ul>
+<p>TIP: <code>::</code> is a way to access an exported function from a package. <code>:::</code> accesses an internal, ie not exported one.</p>
+<p>Good luck!</p>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>software</category>
+  <category>RSE</category>
+  <guid>https://www.smwindecker.com/workshops/20200712-level-up-R/</guid>
+  <pubDate>Tue, 05 Oct 2021 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20200712-level-up-R/pkg.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+</channel>
+</rss>

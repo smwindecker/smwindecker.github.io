@@ -9,20 +9,15 @@
 <link>https://www.smwindecker.com/software.html</link>
 <atom:link href="https://www.smwindecker.com/software.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.433</generator>
-<lastBuildDate>Mon, 09 Oct 2023 12:24:53 GMT</lastBuildDate>
+<generator>quarto-1.4.555</generator>
+<lastBuildDate>Mon, 08 Jul 2024 08:21:17 GMT</lastBuildDate>
 <item>
   <title>gdaltools</title>
-  <link>https://www.smwindecker.com/software/20210810-gdaltools/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div class="cell" data-layout-align="center">
+  <link>https://www.smwindecker.com/software/20210810-gdaltools/</link>
+  <description><![CDATA[ <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.smwindecker.com/software/20210810-gdaltools/gdal.png" class="img-fluid figure-img" style="width:30.0%" alt="A flowchart showing t."></p>
+<figure class="figure"><p><img src="https://www.smwindecker.com/software/20210810-gdaltools/gdal.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%" alt="A flowchart showing t."></p>
 </figure>
 </div>
 </div>
@@ -35,25 +30,17 @@
 
 
  ]]></description>
-  <category>decomposition</category>
-  <category>R</category>
-  <category>software</category>
-  <guid>https://www.smwindecker.com/software/20210810-gdaltools/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
+  <guid>https://www.smwindecker.com/software/20210810-gdaltools/</guid>
+  <pubDate>Mon, 08 Jul 2024 08:21:17 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20210810-gdaltools/world.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>mixchar</title>
-  <link>https://www.smwindecker.com/software/20180811-mixchar/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div class="cell" data-layout-align="center">
+  <link>https://www.smwindecker.com/software/20180811-mixchar/</link>
+  <description><![CDATA[ <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.smwindecker.com/software/20180811-mixchar/logo.png" class="img-fluid figure-img" style="width:75.0%" alt="A flowchart showing t."></p>
+<figure class="figure"><p><img src="https://www.smwindecker.com/software/20180811-mixchar/logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="A flowchart showing t."></p>
 </figure>
 </div>
 </div>
@@ -67,30 +54,22 @@
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-windecker2021" class="csl-entry">
 Windecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Golding. 2021. <span>“Mixchar: An R Package for the Deconvolution of Thermal Decay Curves.”</span> <em>Journal of Open Research Software</em> 9 (1): 27. <a href="https://doi.org/10.5334/jors.249">https://doi.org/10.5334/jors.249</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>decomposition</category>
-  <category>R</category>
-  <category>software</category>
-  <guid>https://www.smwindecker.com/software/20180811-mixchar/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
+  <guid>https://www.smwindecker.com/software/20180811-mixchar/</guid>
+  <pubDate>Mon, 08 Jul 2024 08:21:17 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180811-mixchar/hexsticker.png" medium="image" type="image/png" height="167" width="144"/>
 </item>
 <item>
   <title>zoontutorials</title>
-  <link>https://www.smwindecker.com/software/20180712-zoontutorials/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div class="cell" data-layout-align="center">
+  <link>https://www.smwindecker.com/software/20180712-zoontutorials/</link>
+  <description><![CDATA[ <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.smwindecker.com/software/20180712-zoontutorials/icon-workflow.jpg" class="img-fluid figure-img" style="width:75.0%" alt="A flowchart showing t."></p>
+<figure class="figure"><p><img src="https://www.smwindecker.com/software/20180712-zoontutorials/icon-workflow.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="A flowchart showing t."></p>
 </figure>
 </div>
 </div>
@@ -114,17 +93,13 @@ Windecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Goldin
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-golding2017" class="csl-entry">
 Golding, Nick, Tom A. August, Tim C. D. Lucas, David J. Gavaghan, E. Emiel van Loon, and Greg McInerny. 2017. <span>“The Zoon r Package for Reproducible and Shareable Species Distribution Modelling.”</span> Edited by Sarah Goslee. <em>Methods in Ecology and Evolution</em> 9 (2): 260–68. <a href="https://doi.org/10.1111/2041-210x.12858">https://doi.org/10.1111/2041-210x.12858</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>spatial</category>
-  <category>R</category>
-  <category>SDM</category>
-  <category>software</category>
-  <guid>https://www.smwindecker.com/software/20180712-zoontutorials/index.html</guid>
-  <pubDate>Mon, 09 Oct 2023 12:24:53 GMT</pubDate>
+  <guid>https://www.smwindecker.com/software/20180712-zoontutorials/</guid>
+  <pubDate>Mon, 08 Jul 2024 08:21:17 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180712-zoontutorials/icon-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

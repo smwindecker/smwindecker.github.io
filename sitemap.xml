@@ -2,26 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.smwindecker.com/software.html</loc>
-    <lastmod>2023-10-09T12:24:53.767Z</lastmod>
+    <lastmod>2024-07-08T01:18:59.398Z</lastmod>
   </url>
   <url>
     <loc>https://www.smwindecker.com/software/20180712-zoontutorials/index.html</loc>
-    <lastmod>2023-10-09T12:24:53.261Z</lastmod>
+    <lastmod>2024-07-08T01:19:00.712Z</lastmod>
   </url>
   <url>
     <loc>https://www.smwindecker.com/software/20180811-mixchar/index.html</loc>
-    <lastmod>2023-10-09T12:24:52.176Z</lastmod>
+    <lastmod>2024-07-08T01:19:11.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.smwindecker.com/workshops.html</loc>
+    <lastmod>2023-09-08T08:57:31.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.smwindecker.com/workshops/20220711-peer-code-review/index.html</loc>
+    <lastmod>2024-07-08T02:43:42.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.smwindecker.com/workshops/20230908-model-based-data-integration/index.html</loc>
+    <lastmod>2024-07-08T05:44:15.969Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/index.html</loc>
+    <lastmod>2024-07-08T08:19:59.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.smwindecker.com/workshops/20200712-level-up-R/index.html</loc>
+    <lastmod>2024-07-08T02:41:20.796Z</lastmod>
   </url>
   <url>
     <loc>https://www.smwindecker.com/index.html</loc>
-    <lastmod>2023-10-09T12:24:51.594Z</lastmod>
+    <lastmod>2023-09-09T02:43:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.smwindecker.com/software/20210810-gdaltools/index.html</loc>
-    <lastmod>2023-10-09T12:24:52.713Z</lastmod>
+    <lastmod>2024-07-08T01:19:18.593Z</lastmod>
   </url>
   <url>
     <loc>https://www.smwindecker.com/about.html</loc>
-    <lastmod>2023-10-09T12:24:53.491Z</lastmod>
+    <lastmod>2023-09-08T02:30:07.000Z</lastmod>
   </url>
 </urlset>
