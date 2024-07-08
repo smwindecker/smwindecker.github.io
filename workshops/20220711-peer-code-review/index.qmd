@@ -9,20 +9,18 @@ image: fig1.png
 draft: false 
 ---
 
+These slides and manuscript follow on from an unconference and two hackathons at [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference](https://www.sortee.org/) July, 2021 and July, 2022.
+
+
 ```{r}
-#| eval: true 
 #| echo: false
-#| fig-align: "center"
-#| out-width: "75%" 
-#| fig-alt: "A flowchart showing t."
-knitr::include_graphics("slide1-image.png")
+xaringanExtra::embed_xaringan(
+  url = "https://sortee.github.io/peer-code-review/hackathon2022.html#/section",
+  ratio = "16:9"
+)
 ```
 
 ::: center-text
-[{{< fa book >}} hackathon slides](https://sortee.github.io/peer-code-review/hackathon2022.html#/title-slide){.btn role="button"} [{{< fa brands github >}} SORTEE peer code review](https://sortee.github.io/peer-code-review/){.btn role="button"}
+[{{< fa book >}} Code review manuscript](https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.14230){.btn role="button"} [{{< fa brands github >}} SORTEE peer code review](https://sortee.github.io/peer-code-review/){.btn role="button"}
 :::
-
-Unconference and hackathon at [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference](https://www.sortee.org/) conference July, 2021 and July, 2022
-
-See also our paper resulting from these workshops: [Implementing code review in the scientific workflow: Insights from ecology and evolutionary biology](https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.14230).
 
