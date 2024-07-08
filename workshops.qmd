@@ -1,0 +1,11 @@
+---
+title: "Workshops"
+listing: 
+  contents: workshops
+  type: grid
+  sort: "date desc"
+  categories: true
+  feed: true
+  fields: [title, subtitle, author, date, image, description]
+editor: visual
+---

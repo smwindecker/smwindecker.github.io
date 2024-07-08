@@ -1,0 +1,28 @@
+---
+title: "Peer Code Review"
+subtitle: "Hackathon from SORTEE 2021 and 2022"
+author:
+  - name: Saras Windecker & Ed Ivimey-Cook
+date: 11-07-2022
+categories: [R, software, RSE] 
+image: fig1.png
+draft: false 
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "75%" 
+#| fig-alt: "A flowchart showing t."
+knitr::include_graphics("slide1-image.png")
+```
+
+::: center-text
+[{{< fa book >}} hackathon slides](https://sortee.github.io/peer-code-review/hackathon2022.html#/title-slide){.btn role="button"} [{{< fa brands github >}} SORTEE peer code review](https://sortee.github.io/peer-code-review/){.btn role="button"}
+:::
+
+Unconference and hackathon at [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference](https://www.sortee.org/) conference July, 2021 and July, 2022
+
+See also our paper resulting from these workshops: [Implementing code review in the scientific workflow: Insights from ecology and evolutionary biology](https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.14230).
+
