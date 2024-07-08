@@ -20,11 +20,11 @@ knitr::include_graphics("badges.jpg")
 
 <br>
 
+These notes accompany a course taught by Nick Golding and Saras Windecker at the [International Statistical Ecology Conference, June 2020](https://isec2020.multiscreensite.com/training-program#SkillsShowcase), entitled "Level Up your R Package".
+
 ::: center-text
 [{{< fa brands github >}} course materials](https://github.com/smwindecker/level-up-R){.btn role="button"}
 :::
-
-These notes accompany a course taught by Nick Golding and Saras Windecker at the [International Statistical Ecology Conference, June 2020](https://isec2020.multiscreensite.com/training-program#SkillsShowcase), entitled "Level Up your R Package".
 
 # When do we create an R package?
 
