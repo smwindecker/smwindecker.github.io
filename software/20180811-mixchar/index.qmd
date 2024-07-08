@@ -1,7 +1,6 @@
 ---
 title: "mixchar"
 subtitle: "R package for estimating carbon components from the deconvolution of thermal decay curves"
-categories: [decomposition, R, software] 
 image: hexsticker.png
 draft: false
 bibliography: references.bib

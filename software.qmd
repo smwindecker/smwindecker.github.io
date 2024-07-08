@@ -4,7 +4,6 @@ listing:
   contents: software
   type: grid
   sort: "title"
-  categories: true
   feed: true
   fields: [title, subtitle, date, image]
 editor: visual

@@ -1,7 +1,6 @@
 ---
 title: "gdaltools"
 subtitle: "R package to wrap spatial data processing in `gdal`"
-categories: [decomposition, R, software] 
 image: world.jpeg
 draft: false
 ---

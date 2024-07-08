@@ -1,7 +1,6 @@
 ---
 title: "zoontutorials"
 subtitle: "Introductory tutorials and best practice guides for species distribution modelling using the `zoon` R package"
-categories: [spatial, R, SDM, software] 
 image: icon-cropped.jpg
 draft: false
 bibliography: references.bib
