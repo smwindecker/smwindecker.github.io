@@ -25,28 +25,7 @@
     "href": "workshops.html",
     "title": "Workshops & Courses",
     "section": "",
-    "text": "Model-based data integration\n\n\nWorkshop taught at ISEC 2022 and Species on the Move 2023\n\n\n\nSaras Windecker, David Uribe-Rivera, & Nick Golding\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpanish language modelling intensive\n\n\n3-day modelling intensive given in Bolivia, 2023\n\n\n\nSaras Windecker, David Uribe-Rivera\n\n\nFeb 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeer Code Review\n\n\nHackathon from SORTEE 2021 and 2022\n\n\n\nSaras Windecker & Ed Ivimey-Cook\n\n\nJul 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel Up your R Package\n\n\nWorkshop taught at ISEC 2020\n\n\n\nSaras Windecker & Nick Golding\n\n\nJul 12, 2020\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "workshops/20220711-peer-code-review/index.html",
-    "href": "workshops/20220711-peer-code-review/index.html",
-    "title": "Peer Code Review",
-    "section": "",
-    "text": "These slides and manuscript follow on from an unconference and two hackathons at Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference July, 2021 and July, 2022.\n\n\n\n\n\n\n\n\n\n Code review manuscript  SORTEE peer code review"
-  },
-  {
-    "objectID": "workshops/20230515-model-based-data-integration/index.html",
-    "href": "workshops/20230515-model-based-data-integration/index.html",
-    "title": "Model-based data integration",
-    "section": "",
-    "text": "Workshop on model-based data integration, presented at:\n\n2022 International Statistical Ecology Conference skills showcase by Saras Windecker & Nick Golding\n2023 Species on the Move pre-conference workshop by Saras Windecker & David Uribe-Rivera\n\n\n\n\n\n\n\n\n\n\n\n course materials  code demonstration"
-  },
-  {
-    "objectID": "workshops/20230223-r-para-ecolgia/index.html",
-    "href": "workshops/20230223-r-para-ecolgia/index.html",
-    "title": "Spanish language modelling intensive",
-    "section": "",
-    "text": "Intensive course on data analysis with linear models, GLMs, and mixed models at Universidad Mayor de San Andrés (UMSA), La Paz, Bolivia, 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba, Bolivia, 6 - 8 Mar. With support from R Consortium.\nDiapositivas:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n course materials"
+    "text": "Model-based data integration\n\n\nWorkshop taught at ISEC 2022 and Species on the Move 2023\n\n\n\nSaras Windecker, David Uribe-Rivera, & Nick Golding\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpanish language modelling intensive\n\n\n3-day modelling intensive given in Bolivia, 2023\n\n\n\nSaras Windecker, David Uribe-Rivera\n\n\nFeb 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayesian Inference\n\n\nIntensive course prepared for government and academic researchers\n\n\n\nSaras Windecker & Nick Golding\n\n\nOct 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeer Code Review\n\n\nHackathon from SORTEE 2021 and 2022\n\n\n\nSaras Windecker & Ed Ivimey-Cook\n\n\nJul 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel Up your R Package\n\n\nWorkshop taught at International Statistical Ecology Conference 2020\n\n\n\nSaras Windecker & Nick Golding\n\n\nJul 12, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "workshops/20200712-level-up-R/index.html",
@@ -145,6 +124,34 @@
     "title": "Level Up your R Package",
     "section": "other",
     "text": "other\n\nlintr for style checking! lintr::lint_package()\n\nspell check with usethis::use_spell_check()\n\ngit resources\nget an automated review of your package with goodpractice::gp()\n\ndeveloper’s guide.\n\nTIP: :: is a way to access an exported function from a package. ::: accesses an internal, ie not exported one.\nGood luck!"
+  },
+  {
+    "objectID": "workshops/20230223-r-para-ecolgia/index.html",
+    "href": "workshops/20230223-r-para-ecolgia/index.html",
+    "title": "Spanish language modelling intensive",
+    "section": "",
+    "text": "Intensive course on data analysis with linear models, GLMs, and mixed models at Universidad Mayor de San Andrés (UMSA), La Paz, Bolivia, 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba, Bolivia, 6 - 8 Mar. With support from R Consortium.\nDiapositivas:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n course materials"
+  },
+  {
+    "objectID": "workshops/20230515-model-based-data-integration/index.html",
+    "href": "workshops/20230515-model-based-data-integration/index.html",
+    "title": "Model-based data integration",
+    "section": "",
+    "text": "Workshop on model-based data integration, presented at:\n\n2022 International Statistical Ecology Conference skills showcase by Saras Windecker & Nick Golding\n2023 Species on the Move pre-conference workshop by Saras Windecker & David Uribe-Rivera\n\n\n\n\n\n\n\n\n\n\n\n course materials  code demonstration"
+  },
+  {
+    "objectID": "workshops/20220711-peer-code-review/index.html",
+    "href": "workshops/20220711-peer-code-review/index.html",
+    "title": "Peer Code Review",
+    "section": "",
+    "text": "These slides and manuscript follow on from an unconference and two hackathons at Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference July, 2021 and July, 2022.\n\n\n\n\n\n\n\n\n\n Code review manuscript  SORTEE peer code review"
+  },
+  {
+    "objectID": "workshops/20221204-bayesian-inference/index.html",
+    "href": "workshops/20221204-bayesian-inference/index.html",
+    "title": "Bayesian Inference",
+    "section": "",
+    "text": "Intensive course on bayesian inference, presented:\n\nfor Northern Territory Government and Charles Darwin University researchers Apr 16 - 18, 2019 by Saras Windecker & Nick Golding\nfor Deakin University students and researchers Oct 27 - 28, 2022 by Saras Windecker with assistance from David Uribe-Rivera, Saoirse Kelleher, and Kevin Newman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n course materials"
   },
   {
     "objectID": "index.html",

@@ -118,6 +118,70 @@
   <media:content url="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/mixedmod.png" medium="image" type="image/png" height="94" width="144"/>
 </item>
 <item>
+  <title>Bayesian Inference</title>
+  <dc:creator>Saras Windecker &amp; Nick Golding</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20221204-bayesian-inference/</link>
+  <description><![CDATA[ <p>Intensive course on bayesian inference, presented:</p>
+<ul>
+<li>for Northern Territory Government and Charles Darwin University researchers Apr 16 - 18, 2019 by Saras Windecker &amp; Nick Golding</li>
+<li>for Deakin University students and researchers Oct 27 - 28, 2022 by Saras Windecker with assistance from David Uribe-Rivera, Saoirse Kelleher, and Kevin Newman</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="1-introduction.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="2-data-generative-models.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="3-probability.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="4-bayes.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="5-brms.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/bayesian_inference" class="btn"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> course materials</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>statistics</category>
+  <category>ecology</category>
+  <guid>https://www.smwindecker.com/workshops/20221204-bayesian-inference/</guid>
+  <pubDate>Thu, 27 Oct 2022 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20221204-bayesian-inference/3curves_small.png" medium="image" type="image/png" height="98" width="144"/>
+</item>
+<item>
   <title>Peer Code Review</title>
   <dc:creator>Saras Windecker &amp; Ed Ivimey-Cook</dc:creator>
   <link>https://www.smwindecker.com/workshops/20220711-peer-code-review/</link>
