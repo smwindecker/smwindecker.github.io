@@ -10,8 +10,8 @@
   {
     "listing": "/workshops.html",
     "items": [
+      "/workshops/20230515-model-based-data-integration/index.html",
       "/workshops/20230223-r-para-ecolgia/index.html",
-      "/workshops/20230908-model-based-data-integration/index.html",
       "/workshops/20220711-peer-code-review/index.html",
       "/workshops/20200712-level-up-R/index.html"
     ]

@@ -10,12 +10,44 @@
 <atom:link href="https://www.smwindecker.com/workshops.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Fri, 01 Nov 2024 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 May 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Model-based data integration</title>
+  <dc:creator>Saras Windecker, David Uribe-Rivera, &amp; Nick Golding</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20230515-model-based-data-integration/</link>
+  <description><![CDATA[ <p>Workshop on model-based data integration, presented at:</p>
+<ul>
+<li>2022 International Statistical Ecology Conference skills showcase by Saras Windecker &amp; Nick Golding</li>
+<li>2023 Species on the Move pre-conference workshop by Saras Windecker &amp; David Uribe-Rivera</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="slides.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/IntegratedModels-Workshop" class="btn"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> course materials</a> <a href="integrated_models.html" class="btn"><i class="fa-solid fa-code" title="code symbol" aria-label="code"></i> code demonstration</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>statistics</category>
+  <category>ecology</category>
+  <guid>https://www.smwindecker.com/workshops/20230515-model-based-data-integration/</guid>
+  <pubDate>Sun, 14 May 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20230515-model-based-data-integration/thumbnail.png" medium="image" type="image/png" height="118" width="144"/>
+</item>
 <item>
   <title>Spanish language modelling intensive</title>
   <dc:creator>Saras Windecker, David Uribe-Rivera</dc:creator>
   <link>https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/</link>
-  <description><![CDATA[ <p>Intensive course on data analysis with linear models, GLMs, and mixed models given by Saras Windecker and David Uribe-River at Universidad Mayor de San Andrés (UMSA), La Paz 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba 6 - 8 Mar.&nbsp;With support from R Consortium.</p>
+  <description><![CDATA[ <p>Intensive course on data analysis with linear models, GLMs, and mixed models at Universidad Mayor de San Andrés (UMSA), La Paz, Bolivia, 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba, Bolivia, 6 - 8 Mar.&nbsp;With support from R Consortium.</p>
 <section id="diapositivas" class="level4"><h4 class="anchored" data-anchor-id="diapositivas">Diapositivas:</h4>
 <div class="cell">
 <div class="cell-output-display">
@@ -60,13 +92,13 @@
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/lapaz.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/lapaz_small.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
 </figure>
 </div>
 </div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/cocha.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+<figure class="figure"><p><img src="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/cocha_small.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
 </figure>
 </div>
 </div>
@@ -82,40 +114,8 @@
   <category>statistics</category>
   <category>ecology</category>
   <guid>https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/</guid>
-  <pubDate>Fri, 01 Nov 2024 14:00:00 GMT</pubDate>
+  <pubDate>Wed, 22 Feb 2023 14:00:00 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/workshops/20230223-r-para-ecolgia/mixedmod.png" medium="image" type="image/png" height="94" width="144"/>
-</item>
-<item>
-  <title>Model-based data integration</title>
-  <dc:creator>Saras Windecker, David Uribe-Rivera, &amp; Nick Golding</dc:creator>
-  <link>https://www.smwindecker.com/workshops/20230908-model-based-data-integration/</link>
-  <description><![CDATA[ <p>Workshop on model-based data integration, presented at:</p>
-<ul>
-<li>2022 International Statistical Ecology Conference skills showcase by Saras Windecker &amp; Nick Golding</li>
-<li>2023 Species on the Move pre-conference workshop by Saras Windecker &amp; David Uribe-Rivera</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
-<iframe src="slides.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
-<script>fitvids('.shareagain', {players: 'iframe'});</script>
-</div>
-</div>
-</div>
-<p><br></p>
-<div class="center-text">
-<p><a href="https://github.com/smwindecker/IntegratedModels-Workshop" class="btn"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> course materials</a> <a href="integrated_models.html" class="btn"><i class="fa-solid fa-code" title="code symbol" aria-label="code"></i> code demonstration</a></p>
-</div>
-
-
-
- ]]></description>
-  <category>R</category>
-  <category>statistics</category>
-  <category>ecology</category>
-  <guid>https://www.smwindecker.com/workshops/20230908-model-based-data-integration/</guid>
-  <pubDate>Tue, 08 Aug 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://www.smwindecker.com/workshops/20230908-model-based-data-integration/thumbnail.png" medium="image" type="image/png" height="118" width="144"/>
 </item>
 <item>
   <title>Peer Code Review</title>
@@ -141,7 +141,7 @@
   <category>software</category>
   <category>RSE</category>
   <guid>https://www.smwindecker.com/workshops/20220711-peer-code-review/</guid>
-  <pubDate>Sun, 06 Nov 2022 14:00:00 GMT</pubDate>
+  <pubDate>Sun, 10 Jul 2022 14:00:00 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/workshops/20220711-peer-code-review/fig1.png" medium="image" type="image/png" height="112" width="144"/>
 </item>
 <item>
@@ -274,7 +274,7 @@
   <category>software</category>
   <category>RSE</category>
   <guid>https://www.smwindecker.com/workshops/20200712-level-up-R/</guid>
-  <pubDate>Tue, 05 Oct 2021 14:00:00 GMT</pubDate>
+  <pubDate>Sat, 11 Jul 2020 14:00:00 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/workshops/20200712-level-up-R/pkg.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 </channel>
