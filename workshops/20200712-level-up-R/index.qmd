@@ -3,7 +3,7 @@ title: "Level Up your R Package"
 subtitle: "Workshop taught at ISEC 2020"
 author:
   - name: Saras Windecker & Nick Golding
-date: 22-06-2020
+date: 12 07 2020
 categories: [R, software, RSE] 
 image: pkg.png
 draft: false 

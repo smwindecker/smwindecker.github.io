@@ -3,7 +3,7 @@ title: "Spanish language modelling intensive"
 subtitle: "3-day modelling intensive given in Bolivia, 2023"
 author:
   - name: Saras Windecker, David Uribe-Rivera
-date: 23-02-2023
+date: 23 02 2023
 categories: [R, statistics, ecology] 
 image: mixedmod.png
 draft: false 
@@ -12,7 +12,7 @@ editor:
     wrap: sentence
 ---
 
-Intensive course on data analysis with linear models, GLMs, and mixed models given by Saras Windecker and David Uribe-River at Universidad Mayor de San Andrés (UMSA), La Paz 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba 6 - 8 Mar. With support from R Consortium. 
+Intensive course on data analysis with linear models, GLMs, and mixed models at Universidad Mayor de San Andrés (UMSA), La Paz, Bolivia, 23 - 24 Feb, and Universidad Mayor de San Simón (UMSS), Cochabamba, Bolivia, 6 - 8 Mar. With support from R Consortium. 
 
 
 #### Diapositivas:
@@ -62,7 +62,7 @@ xaringanExtra::embed_xaringan(
 #| fig.show: "hold"
 #| fig.align: 'center' 
 #| out.width: "50%"
-knitr::include_graphics(c('lapaz.jpg', 'cocha.JPG'))
+knitr::include_graphics(c('lapaz_small.jpg', 'cocha_small.JPG'))
 ```
 
 

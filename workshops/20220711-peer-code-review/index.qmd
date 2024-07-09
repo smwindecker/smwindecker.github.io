@@ -3,7 +3,7 @@ title: "Peer Code Review"
 subtitle: "Hackathon from SORTEE 2021 and 2022"
 author:
   - name: Saras Windecker & Ed Ivimey-Cook
-date: 11-07-2022
+date: 11 07 2022
 categories: [R, software, RSE] 
 image: fig1.png
 draft: false 
