@@ -1,6 +1,6 @@
 ---
 title: "Level Up your R Package"
-subtitle: "Workshop taught at ISEC 2020"
+subtitle: "Workshop taught at International Statistical Ecology Conference 2020"
 author:
   - name: Saras Windecker & Nick Golding
 date: 12 07 2020
