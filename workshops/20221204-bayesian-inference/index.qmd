@@ -1,0 +1,64 @@
+---
+title: "Bayesian Inference"
+subtitle: "Intensive course prepared for government and academic researchers"
+author:
+  - name: Saras Windecker & Nick Golding
+date: 28 10 2022
+categories: [R, statistics, ecology] 
+image: 3curves_small.png
+draft: false
+---
+
+Intensive course on bayesian inference, presented:
+
+* for Northern Territory Government and Charles Darwin University researchers Apr 16 - 18, 2019 by Saras Windecker & Nick Golding
+* for Deakin University students and researchers Oct 27 - 28, 2022 by Saras Windecker with assistance from David Uribe-Rivera, Saoirse Kelleher, and Kevin Newman
+
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "1-introduction.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "2-data-generative-models.html",
+  ratio = "16:9"
+)
+```
+
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "3-probability.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "4-bayes.html",
+  ratio = "16:9"
+)
+```
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "5-brms.html",
+  ratio = "16:9"
+)
+```
+
+<br>
+
+::: {.center-text}
+[{{< fa brands github title="Octocat, the GitHub logo" >}} course materials](https://github.com/smwindecker/bayesian_inference){.btn role="button"} 
+:::
+
