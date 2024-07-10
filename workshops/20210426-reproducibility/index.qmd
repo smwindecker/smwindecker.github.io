@@ -1,0 +1,24 @@
+---
+title: "Reproducible Research"
+subtitle: "Collection of invited presentations and workshops"
+author:
+  - name: Saras Windecker
+date: 26 04 2021
+categories: [R, software, RSE] 
+image: cartoon.png
+draft: false 
+---
+
+-   *An introduction to version control with git and GitHub: future proofing for collaborative projects*, LifeCourse Research Development Program, Murdoch Children’s Research Institute, Melbourne, VIC, Australia, 26 Apr 2021
+
+-   *Introduction to R packages and version control*, rOpenSci Oz Unconference, Sydney, NSW, Australia, 11 Dec 2019 & rOpenSci Oz Unconference, Melbourne, VIC, Australia, 21 Nov 2018
+
+-   *Taking your R skills to the next level: four great strategies for reproducible research*, Australian Interdisciplinary Meta-research and Open Science Conference, Melbourne, VIC, Australia, 7 Nov 2019 & Ecological Society of Australia Conference, Launceston, TAS, Australia, 28 Nov 2019
+
+-   *Gold star reproducibility: straightforward containerisation with open-source tools*, R-Ladies Montpellier, 3 Jul 2019, R-Ladies Sydney & University of New South Wales, 28 Aug 2019, R-Ladies Melbourne, 24 Sep 2019
+
+-   *Replication in ecology*, From replication crisis to credibility revolution workshop, Melbourne, VIC, Australia, 14 Nov 2018
+
+::: center-text
+[{{< fa brands github >}} R-Ladies workshops repository](https://github.com/smwindecker/holepunch_rladies){.btn role="button"}
+:::
