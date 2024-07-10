@@ -209,6 +209,36 @@
   <media:content url="https://www.smwindecker.com/workshops/20220711-peer-code-review/fig1.png" medium="image" type="image/png" height="112" width="144"/>
 </item>
 <item>
+  <title>Reproducible Research</title>
+  <dc:creator>Saras Windecker</dc:creator>
+  <link>https://www.smwindecker.com/workshops/20210426-reproducibility/</link>
+  <description><![CDATA[ 
+
+
+
+
+<ul>
+<li><p><em>An introduction to version control with git and GitHub: future proofing for collaborative projects</em>, LifeCourse Research Development Program, Murdoch Children’s Research Institute, Melbourne, VIC, Australia, 26 Apr 2021</p></li>
+<li><p><em>Introduction to R packages and version control</em>, rOpenSci Oz Unconference, Sydney, NSW, Australia, 11 Dec 2019 &amp; rOpenSci Oz Unconference, Melbourne, VIC, Australia, 21 Nov 2018</p></li>
+<li><p><em>Taking your R skills to the next level: four great strategies for reproducible research</em>, Australian Interdisciplinary Meta-research and Open Science Conference, Melbourne, VIC, Australia, 7 Nov 2019 &amp; Ecological Society of Australia Conference, Launceston, TAS, Australia, 28 Nov 2019</p></li>
+<li><p><em>Gold star reproducibility: straightforward containerisation with open-source tools</em>, R-Ladies Montpellier, 3 Jul 2019, R-Ladies Sydney &amp; University of New South Wales, 28 Aug 2019, R-Ladies Melbourne, 24 Sep 2019</p></li>
+<li><p><em>Replication in ecology</em>, From replication crisis to credibility revolution workshop, Melbourne, VIC, Australia, 14 Nov 2018</p></li>
+</ul>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/holepunch_rladies" class="btn"><i class="fa-brands fa-github" aria-label="github"></i> R-Ladies workshops repository</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>software</category>
+  <category>RSE</category>
+  <guid>https://www.smwindecker.com/workshops/20210426-reproducibility/</guid>
+  <pubDate>Sun, 25 Apr 2021 14:00:00 GMT</pubDate>
+  <media:content url="https://www.smwindecker.com/workshops/20210426-reproducibility/cartoon.png" medium="image" type="image/png" height="222" width="144"/>
+</item>
+<item>
   <title>Level Up your R Package</title>
   <dc:creator>Saras Windecker &amp; Nick Golding</dc:creator>
   <link>https://www.smwindecker.com/workshops/20200712-level-up-R/</link>

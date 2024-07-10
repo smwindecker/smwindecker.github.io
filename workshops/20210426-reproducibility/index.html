@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Saras Windecker">
+<meta name="dcterms.date" content="2021-04-26">
 
-<title>Saras M Windecker - Workshops &amp; Courses</title>
+<title>Saras M Windecker - Reproducible Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-author','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Saras M Windecker" href="workshops.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed">
 
@@ -137,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Saras M Windecker</span>
     </a>
   </div>
@@ -155,19 +99,19 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/CV-WINDECKER.pdf"> 
+    <a class="nav-link" href="../../CV/CV-WINDECKER.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./workshops.html" aria-current="page"> 
+    <a class="nav-link" href="../../workshops.html"> 
 <span class="menu-text">Workshops &amp; Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../../software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
 </ul>
@@ -181,22 +125,40 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RSE">RSE <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ecology">ecology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="software">software <span class="quarto-category-count">(3)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workshops &amp; Courses</h1>
-</div>
+<h1 class="title">Reproducible Research</h1>
+<p class="subtitle lead">Collection of invited presentations and workshops</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">RSE</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Saras Windecker </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 26, 2021</p>
+    </div>
+  </div>
   
     
   </div>
@@ -206,167 +168,20 @@ window.Quarto = {
 </header>
 
 
+<ul>
+<li><p><em>An introduction to version control with git and GitHub: future proofing for collaborative projects</em>, LifeCourse Research Development Program, Murdoch Children’s Research Institute, Melbourne, VIC, Australia, 26 Apr 2021</p></li>
+<li><p><em>Introduction to R packages and version control</em>, rOpenSci Oz Unconference, Sydney, NSW, Australia, 11 Dec 2019 &amp; rOpenSci Oz Unconference, Melbourne, VIC, Australia, 21 Nov 2018</p></li>
+<li><p><em>Taking your R skills to the next level: four great strategies for reproducible research</em>, Australian Interdisciplinary Meta-research and Open Science Conference, Melbourne, VIC, Australia, 7 Nov 2019 &amp; Ecological Society of Australia Conference, Launceston, TAS, Australia, 28 Nov 2019</p></li>
+<li><p><em>Gold star reproducibility: straightforward containerisation with open-source tools</em>, R-Ladies Montpellier, 3 Jul 2019, R-Ladies Sydney &amp; University of New South Wales, 28 Aug 2019, R-Ladies Melbourne, 24 Sep 2019</p></li>
+<li><p><em>Replication in ecology</em>, From replication crisis to credibility revolution workshop, Melbourne, VIC, Australia, 14 Nov 2018</p></li>
+</ul>
+<div class="center-text">
+<p><a href="https://github.com/smwindecker/holepunch_rladies" class="btn" role="button"><i class="fa-brands fa-github" aria-label="github"></i> R-Ladies workshops repository</a></p>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,statistics,ecology" data-listing-date-sort="1684072800000" data-listing-file-modified-sort="1720491284661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<a href="./workshops/20230515-model-based-data-integration/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20230515-model-based-data-integration/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Model-based data integration
-</h5>
-<div class="card-subtitle listing-subtitle">
-Workshop taught at ISEC 2022 and Species on the Move 2023
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker, David Uribe-Rivera, &amp; Nick Golding
-</div>
-<div class="listing-date">
-May 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="R,statistics,ecology" data-listing-date-sort="1677074400000" data-listing-file-modified-sort="1720490968741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
-<a href="./workshops/20230223-r-para-ecolgia/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20230223-r-para-ecolgia/mixedmod.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Spanish language modelling intensive
-</h5>
-<div class="card-subtitle listing-subtitle">
-3-day modelling intensive given in Bolivia, 2023
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker, David Uribe-Rivera
-</div>
-<div class="listing-date">
-Feb 23, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="R,statistics,ecology" data-listing-date-sort="1666879200000" data-listing-file-modified-sort="1720504166844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<a href="./workshops/20221204-bayesian-inference/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20221204-bayesian-inference/3curves_small.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bayesian Inference
-</h5>
-<div class="card-subtitle listing-subtitle">
-Intensive course prepared for government and academic researchers
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker &amp; Nick Golding
-</div>
-<div class="listing-date">
-Oct 28, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="R,software,RSE" data-listing-date-sort="1657461600000" data-listing-file-modified-sort="1720491409764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
-<a href="./workshops/20220711-peer-code-review/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20220711-peer-code-review/fig1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Peer Code Review
-</h5>
-<div class="card-subtitle listing-subtitle">
-Hackathon from SORTEE 2021 and 2022
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker &amp; Ed Ivimey-Cook
-</div>
-<div class="listing-date">
-Jul 11, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="R,software,RSE" data-listing-date-sort="1619359200000" data-listing-file-modified-sort="1720585288949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<a href="./workshops/20210426-reproducibility/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20210426-reproducibility/cartoon.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reproducible Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-Collection of invited presentations and workshops
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker
-</div>
-<div class="listing-date">
-Apr 26, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="R,software,RSE" data-listing-date-sort="1594476000000" data-listing-file-modified-sort="1720491817624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1377">
-<a href="./workshops/20200712-level-up-R/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./workshops/20200712-level-up-R/pkg.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Level Up your R Package
-</h5>
-<div class="card-subtitle listing-subtitle">
-Workshop taught at International Statistical Ecology Conference 2020
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Saras Windecker &amp; Nick Golding
-</div>
-<div class="listing-date">
-Jul 12, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
