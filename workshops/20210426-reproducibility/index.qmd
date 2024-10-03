@@ -9,6 +9,10 @@ image: cartoon.png
 draft: false 
 ---
 
+- *Reusable research code for reliable decision-making*, Modelling for Decision Making special session, Women in Mathematics Special Interest Group Conference 2024, Sydney, NSW, Australia, 1 – 2 Oct, 2024
+
+- *Incorporating reproducible research practices into your research code*, Malaria Modellers Australia Conference, Perth, WA, Australia, 9 Sept 2024
+
 -   *An introduction to version control with git and GitHub: future proofing for collaborative projects*, LifeCourse Research Development Program, Murdoch Children’s Research Institute, Melbourne, VIC, Australia, 26 Apr 2021
 
 -   *Introduction to R packages and version control*, rOpenSci Oz Unconference, Sydney, NSW, Australia, 11 Dec 2019 & rOpenSci Oz Unconference, Melbourne, VIC, Australia, 21 Nov 2018
