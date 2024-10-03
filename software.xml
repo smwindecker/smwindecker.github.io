@@ -9,8 +9,8 @@
 <link>https://www.smwindecker.com/software.html</link>
 <atom:link href="https://www.smwindecker.com/software.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
-<lastBuildDate>Wed, 10 Jul 2024 04:26:10 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Thu, 03 Oct 2024 06:22:46 GMT</lastBuildDate>
 <item>
   <title>gdaltools</title>
   <link>https://www.smwindecker.com/software/20210810-gdaltools/</link>
@@ -31,7 +31,7 @@
 
  ]]></description>
   <guid>https://www.smwindecker.com/software/20210810-gdaltools/</guid>
-  <pubDate>Wed, 10 Jul 2024 04:26:10 GMT</pubDate>
+  <pubDate>Thu, 03 Oct 2024 06:22:46 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20210810-gdaltools/world.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -60,7 +60,7 @@ Windecker, Saras M., Peter A. Vesk, Stacey M. Trevathan-Tackett, and Nick Goldin
 </div>
 </div></section></div> ]]></description>
   <guid>https://www.smwindecker.com/software/20180811-mixchar/</guid>
-  <pubDate>Wed, 10 Jul 2024 04:26:10 GMT</pubDate>
+  <pubDate>Thu, 03 Oct 2024 06:22:46 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180811-mixchar/hexsticker.png" medium="image" type="image/png" height="167" width="144"/>
 </item>
 <item>
@@ -99,7 +99,7 @@ Golding, Nick, Tom A. August, Tim C. D. Lucas, David J. Gavaghan, E. Emiel van L
 </div>
 </div></section></div> ]]></description>
   <guid>https://www.smwindecker.com/software/20180712-zoontutorials/</guid>
-  <pubDate>Wed, 10 Jul 2024 04:26:10 GMT</pubDate>
+  <pubDate>Thu, 03 Oct 2024 06:22:46 GMT</pubDate>
   <media:content url="https://www.smwindecker.com/software/20180712-zoontutorials/icon-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

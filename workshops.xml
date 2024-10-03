@@ -9,7 +9,7 @@
 <link>https://www.smwindecker.com/workshops.html</link>
 <atom:link href="https://www.smwindecker.com/workshops.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Sun, 14 May 2023 14:00:00 GMT</lastBuildDate>
 <item>
   <title>Model-based data integration</title>
@@ -218,6 +218,8 @@
 
 
 <ul>
+<li><p><em>Reusable research code for reliable decision-making</em>, Modelling for Decision Making special session, Women in Mathematics Special Interest Group Conference 2024, Sydney, NSW, Australia, 1 – 2 Oct, 2024</p></li>
+<li><p><em>Incorporating reproducible research practices into your research code</em>, Malaria Modellers Australia Conference, Perth, WA, Australia, 9 Sept 2024</p></li>
 <li><p><em>An introduction to version control with git and GitHub: future proofing for collaborative projects</em>, LifeCourse Research Development Program, Murdoch Children’s Research Institute, Melbourne, VIC, Australia, 26 Apr 2021</p></li>
 <li><p><em>Introduction to R packages and version control</em>, rOpenSci Oz Unconference, Sydney, NSW, Australia, 11 Dec 2019 &amp; rOpenSci Oz Unconference, Melbourne, VIC, Australia, 21 Nov 2018</p></li>
 <li><p><em>Taking your R skills to the next level: four great strategies for reproducible research</em>, Australian Interdisciplinary Meta-research and Open Science Conference, Melbourne, VIC, Australia, 7 Nov 2019 &amp; Ecological Society of Australia Conference, Launceston, TAS, Australia, 28 Nov 2019</p></li>
